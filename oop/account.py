@@ -42,7 +42,7 @@ print(acct1.owner)
 
 # 4. Show the account balance attribute
 print(acct1.balance)
-
+ 
 # 5. Make a series of deposits and withdrawals
 acct1.deposit(50)
 print(acct1.balance)
