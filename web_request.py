@@ -17,6 +17,6 @@ input_string = re.findall(b"<!--(.*?)-->", html, flags = re.DOTALL)[-1].strip().
 # print(input_string)
 print("".join(char for char in input_string if char.isalpha()))
 
-import string
-y = list(filter(lambda x: x in string.ascii_letters, html))
-print(y)
+# import string
+# y = list(filter(lambda x: x in string.ascii_letters, html))
+# print(y)
